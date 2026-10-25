@@ -1,0 +1,2 @@
+# Planner and tests use Python standard library only.
+# Scene generation/rendering requires Blender5.2.2.

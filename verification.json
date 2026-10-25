@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-10-25T13:00:48.018338+00:00",
+  "status": "PASS_FUNCTIONAL_DEMO_WITH_DISCLOSED_VISUAL_LIMITS",
+  "tests": 12,
+  "actual_renders": 6,
+  "blender": "5.2.2 LTS",
+  "engine": "CYCLES",
+  "resolution": [
+    360,
+    500
+  ],
+  "render_seconds": 46.796,
+  "cpu_threads": 2,
+  "gpu_used": false,
+  "four_image_bindings_verified": true,
+  "source_blends_unchanged": true,
+  "lights_unchanged": true,
+  "visual_review": "All six PNGs inspected. Front/back words upright, distinct A/B textures, clear case visible. Strong glints obscure portions of left45/low artwork: explicit lighting-calibration limitation, not client-quality match. No holographic material validated. First two failed geometry/label drafts preserved privately.",
+  "source_hashes": {
+    "case": "d7c55e46b539a1bc13d27b085f6f3780309257595ad4d26ada30e9cc305452fd",
+    "label": "de46dab3263bf2a69407cafd4c42c2d595ca0919f020bbf7a81b31e771732c3f"
+  },
+  "renders": [
+    {
+      "name": "front",
+      "sha256": "2bb7fc4dae52004e1bf7ef1c802c2c0c4c148f67e94f0c3fa435340d9968a107",
+      "seconds": 8.242
+    },
+    {
+      "name": "back",
+      "sha256": "74b1c5cc01aeb8bebeb18a2196930b613dc27c2ee7fc041c273f6e92be2af441",
+      "seconds": 8.221
+    },
+    {
+      "name": "left45",
+      "sha256": "ed6424a98d135dec9b13a87166b9f8126801317b089684524e4c946ec669c403",
+      "seconds": 7.842
+    },
+    {
+      "name": "right45",
+      "sha256": "0f269e0297d61225a361f87dce66f1c3f0d820f8435ea50b7972829eee080138",
+      "seconds": 7.83
+    },
+    {
+      "name": "top",
+      "sha256": "c7de3efdb932429488161b11baa704650575b2d55918dbdf74bcb88b0bd7053d",
+      "seconds": 7.925
+    },
+    {
+      "name": "low",
+      "sha256": "cfaed8ef7168d6b11317514883dacf1fd08201f814272a0750ddb527279fc23e",
+      "seconds": 6.736
+    }
+  ]
+}

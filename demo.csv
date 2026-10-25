@@ -1,0 +1,7 @@
+file_name,labelfront_name,labelback_name,cardfront_name,cardback_name,renderstyle_template
+front,A_labelfront.png,A_labelback.png,A_cardfront.png,A_cardback.png,front
+back,B_labelfront.png,B_labelback.png,B_cardfront.png,B_cardback.png,back
+left45,A_labelfront.png,A_labelback.png,A_cardfront.png,A_cardback.png,left45
+right45,B_labelfront.png,B_labelback.png,B_cardfront.png,B_cardback.png,right45
+top,A_labelfront.png,A_labelback.png,A_cardfront.png,A_cardback.png,top
+low,B_labelfront.png,B_labelback.png,B_cardfront.png,B_cardback.png,low
